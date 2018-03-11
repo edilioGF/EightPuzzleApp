@@ -74,9 +74,9 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         ocho.setOnClickListener(this);
         Button nuevo = (Button)findViewById(R.id.buttonN);
         nuevo.setOnClickListener(this);
-        Button pause = (Button)findViewById(R.id.pause);
+        ImageButton pause = (ImageButton)findViewById(R.id.pause);
         pause.setOnClickListener(this);
-        Button sound = (Button)findViewById(R.id.sound);
+        ImageButton sound = (ImageButton)findViewById(R.id.sound);
         sound.setOnClickListener(this);
         mp1 = MediaPlayer.create(this,R.raw.mover);
         mp2 = MediaPlayer.create(this,R.raw.baraje);
